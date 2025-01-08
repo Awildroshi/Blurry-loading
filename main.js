@@ -4,7 +4,6 @@ const bg= document.querySelector('.background img');
 let load= 0;
 let int= setInterval(blurr, 30);
 
-
 function blurr(){
     load++;
     if(load>99){
